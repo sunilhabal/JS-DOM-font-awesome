@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM</title>
+</head>
+<body>
+    <h1 style="color: blueviolet;">JS DOM</h1>
+
+    <script>
+        var i = document.createElement('i');
+        console.log(i);
+        document.body.appendChild(i);
+        i.setAttribute('class', 'fa-solid fa-house')
+
+        var l = document.createElement('link');
+        console.log(l);
+        document.head.appendChild(l);
+        l.setAttribute('rel','stylesheet');
+        l.setAttribute('href','https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
+
+        var i = document.createElement('i');
+        i.setAttribute('class','fa-solid fa-user');
+        document.body.appendChild(i);
+
+        var i = document.createElement('i');
+        i.setAttribute('class','fa-brands fa-facebook');
+        document.body.appendChild(i);
+
+        var i = document.createElement('i');
+        i.setAttribute('class','fa-solid fa-image');
+        document.body.appendChild(i);
+
+        var i = document.createElement('i');
+        i.setAttribute('class','fa-solid fa-star');
+        document.body.appendChild(i);
+
+
+        var i = document.createElement('i');
+        i.setAttribute('class','fa-solid fa-phone');
+        document.body.appendChild(i);
+
+        var i = document.createElement('i');
+        i.setAttribute('class','fa-solid fa-search');
+        document.body.appendChild(i);
+
+
+        var i = document.createElement('i');
+        i.setAttribute('class','fa-brands fa-github');
+        document.body.appendChild(i);
+
+
+
+
+    </script>
+</body>
+</html>
